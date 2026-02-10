@@ -1,14 +1,29 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# HTB / Pentest Sensitive
+*.ovpn
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
 
-pkg/
-src/
+# Loot / secrets
+loot/
+secrets/
+private/
+creds.txt
+passwords.txt
+
+# Captures / logs
+*.pcap
+*.cap
+*.log
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.gz
+
+# OS junk
+.DS_Store
+Thumbs.db

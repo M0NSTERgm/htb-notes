@@ -1,4 +1,4 @@
-# HTB Starting Point - Meow
+# HTB Starting Point - Meow (Writeup)
 
 **Level:** Tier 0 (Pemula)  
 **Kategori:** Telnet / Misconfiguration  
@@ -10,11 +10,7 @@ Mesin *Meow* mengajarkan dasar pentesting yaitu melakukan scanning port mengguna
 ## Tools yang digunakan
 - Nmap
 - Telnet
-
-## Catatan
-Writeup ini dibuat hanya untuk pembelajaran dan tidak untuk aktivitas ilegal.
-
-# HTB Starting Point - Meow (Writeup Bahasa Indonesia)
+---
 
 ## Informasi Target
 - **Nama Mesin:** Meow

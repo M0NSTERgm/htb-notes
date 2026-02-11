@@ -1,4 +1,4 @@
-# HTB Starting Point - Fawn (Writeup Bahasa Indonesia)
+# HTB Starting Point - Fawn (Writeup)
 
 **Platform:** Hack The Box - Starting Point  
 **Tier:** 0 (Pemula)  
@@ -19,8 +19,8 @@ Dengan akses ini, attacker dapat membaca file di server dan menemukan flag.
 
 ---
 # Informasi Target
-**Nama Mesin:** Fawn
-**IP Target:** 10.129.153.192
+- **Nama Mesin:** Fawn
+- **IP Target:** 10.129.153.192
 
 ---
 

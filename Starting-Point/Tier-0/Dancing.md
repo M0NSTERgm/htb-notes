@@ -7,10 +7,10 @@
 ---
 
 # Ringkasan
-**Mesin *Dancing* mengajarkan cara melakukan scanning port menggunakan Nmap, menemukan service SMB, melakukan enumerasi share SMB, lalu mengakses share yang terbuka tanpa autentikasi.  
-Dari share tersebut ditemukan file flag.**
----
+Mesin *Dancing* mengajarkan cara melakukan scanning port menggunakan Nmap, menemukan service SMB, melakukan enumerasi share SMB, lalu mengakses share yang terbuka tanpa autentikasi.  
+Dari share tersebut ditemukan file flag.
 
+---
 # Tools yang Digunakan
 - Nmap
 - smbclient

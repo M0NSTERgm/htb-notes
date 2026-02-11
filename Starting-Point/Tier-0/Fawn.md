@@ -61,7 +61,7 @@ Password:
 anonymous
 
 [atau bisa juga password kosong (langsung ENTER).]
-
+```
 **Jika login berhasil, berarti FTP server mengizinkan anonymous access.**
 
 # 4. Mencari File Flag

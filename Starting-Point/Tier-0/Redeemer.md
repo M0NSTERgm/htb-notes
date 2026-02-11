@@ -31,9 +31,9 @@ Command:
 nmap -sC -sV 10.129.154.47
 ```
 
-Hasil Yang saya dapatkan :
+Salah satu Hasil Yang di dapatkan :
 ```bash
-
+6379/tcp open redis
 ```
 
 Port 6379 adalah port default untuk service Redis.

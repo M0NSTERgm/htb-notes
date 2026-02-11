@@ -29,8 +29,9 @@ Langkah pertama adalah melakukan scanning untuk melihat port apa saja yang terbu
 Command:
 ```bash
 nmap -sC -sV -oN 10.129.153.172
+```
 
-*Hasil utama yang ditemukan:
+Hasil utama yang ditemukan:
 - 23/tcp open telnet
 
 # 2. Enumeration
@@ -41,49 +42,52 @@ Jika Telnet terbuka di internet, maka sangat berbahaya karena bisa diakses oleh 
 langkah berikutnya adalah mencoba koneksi langsung.
 
 Command:
+```bash
 telnet 10.129.153.172
-
-*Setelah berhasil terhubung, target menampilkan prompt login.
+```
+Setelah berhasil terhubung, target menampilkan prompt login.
 
 # 3. Exploitation (Mendapatkan Akses)
 
 Karena ini mesin Tier 0, biasanya terdapat konfigurasi buruk seperti default credential.
 
 Login yang dicoba:
-
+```bash
 Username:
 root
 
 Password:
 (kosong / langsung tekan ENTER)
-
-*Login berhasil dan sistem memberikan akses shell sebagai root.
+```
+Login berhasil dan sistem memberikan akses shell sebagai root.
 
 Verifikasi akses:
+```bash
 whoami
 id
-
+```
 Hasil menunjukkan:
+```bash
 user = root
 uid = 0 (root)
-
-*Ini artinya kita sudah mendapatkan akses tertinggi.
+```
+Ini artinya kita sudah mendapatkan akses tertinggi.
 
 # 4. Mengambil Flag
 
 Biasanya flag berada di direktori root.
 
 Command:
-
+```bash
 cd /root
 ls -la
 cat flag.txt
+```
 
-
-*Flag ditemukan pada file flag.txt.
-
+Flag ditemukan pada file flag.txt.
+```bash
 HTB{*******************************}
-
+```
 # 5. Analisis Kerentanan
 Penyebab Masalah
 

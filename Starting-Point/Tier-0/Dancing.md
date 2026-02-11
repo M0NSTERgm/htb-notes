@@ -18,8 +18,8 @@ Dari share tersebut ditemukan file flag.
 
 ---
 # Informasi Target
-**Nama Mesin:** Dancing
-**IP Target:** 10.129.153.208
+- **Nama Mesin:** Dancing
+- **IP Target:** 10.129.153.208
 
 ---
 

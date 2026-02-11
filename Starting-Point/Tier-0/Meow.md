@@ -93,14 +93,14 @@ Penyebab Masalah
 
 *Target memiliki service Telnet yang terbuka dan mengizinkan login root tanpa password.*
 
-**Ini termasuk:**
+##Ini termasuk:
 -Misconfiguration
 -Weak Authentication
 -Insecure Protocol (Telnet)
 
 # 6. Mitigasi (Perbaikan Keamanan)
 
-**Langkah yang seharusnya dilakukan administrator:**
+##Langkah yang seharusnya dilakukan administrator:
 
 -Menonaktifkan Telnet service
 -Menggunakan SSH sebagai pengganti Telnet
